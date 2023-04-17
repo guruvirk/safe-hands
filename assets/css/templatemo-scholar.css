@@ -1736,6 +1736,7 @@ footer p a {
   transition: all .3s;
   position: relative;
   z-index: 3;
+  white-space: nowrap;
 }
 
 footer p a:hover {
@@ -2027,6 +2028,16 @@ body {
 
   footer {
     margin-top: 30px;
+  }
+
+  footer p {
+    width: 70%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 15%;
   }
 }
 
